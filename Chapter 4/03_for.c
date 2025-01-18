@@ -5,10 +5,15 @@ int main() {
     for(int i = 1; i<=5; i++){
         for(int j = 1; j<=i; j++){
 
-            printf("%d", i);
+            printf("%d", j);
             
         }
         printf("\n");
     }
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%d",i);
+    }
+    
     return 0;
 }
